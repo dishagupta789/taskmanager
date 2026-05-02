@@ -90,7 +90,7 @@ Live URL: (https://taskmanager-production-166d.up.railway.app/)
 
 ## 👩‍💻 Author
 
-Developed by Seema Gupta
+Developed by Disha Gupta
 
 ---
 
