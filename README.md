@@ -64,7 +64,7 @@ streamlit run app.py
 
 This project is deployed using Railway.
 
-Live URL: (https://github.com/dishagupta789/taskmanager)
+Live URL: taskmanager-production-166d.up.railway.app
 
 ---
 
