@@ -1,7 +1,10 @@
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, declarative_base
+from sqlalchemy.orm import sessionmaker
+from models import Base
 
-engine = create_engine("sqlite:///task.db", connect_args={"check_same_thread": False})
+DATABASE_URL = "sqlite:///task.db"
+
+engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
 SessionLocal = sessionmaker(bind=engine)
-Base = declarative_base()
+Base.metadata.create_all(bind=engine)
